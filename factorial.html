@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Factorial Calculator</title>
+  <link rel="stylesheet" href="factorial.css">
+</head>
+<body>
+  <section id="factorial-calculator">
+    <h1>Factorial Calculator</h1>
+    <p>Calculate the factorial of a number.
+        <br>Enter a positive integer below to begin!</p>
+    <form id="factorial-form">
+      <label for="number-input">Enter a number:</label>
+      <input type="number" id="number-input" min="0" placeholder="Enter a number" required>
+      <div class="buttons">
+        <button type="button" id="calculate-iterative">Iterative Method</button>
+        <button type="button" id="calculate-recursive">Recursive Method</button>
+      </div>
+    </form>
+    <div id="output-container">
+      <h3>Result</h3>
+      <p id="output"></p>
+    </div>
+  </section>
+  <footer>
+ 
+  </footer>
+  <script src="factorial.js"></script>
+</body>
+</html>
